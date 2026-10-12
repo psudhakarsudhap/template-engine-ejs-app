@@ -35,7 +35,7 @@ app.get("/product/:id", readProductById);
 // Route to render the product form for editing an existing product
 app.get("/product-form/:id", updateProductForm);
 // Route to handle updating an existing product
-app.post("/update-product/:id", updateProduct);
+app.post("/add-product/:id", updateProduct);
 
 // Route to handle deleting a product
 app.get("/delete-product/:id", deleteProduct);
